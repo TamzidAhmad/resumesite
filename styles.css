@@ -219,8 +219,10 @@ section .title::after{
 }
 
 /* about section styling */
+/* I disliked the style of the subtitle texts so I am removing them but its interest to see how they had set it up in css rather than the 
+html document*/
 .about .title::after{
-    content: "who i am";
+    content:"";
 }
 .about .about-content .left{
     width: 45%;
@@ -271,14 +273,16 @@ section .title::after{
 .teams .title::before{
     background: #C2E7D9;
 }
+/* Same as the about section I disliked the styling*/
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "";
 }
+/* all the card styling*/
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #26408d;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -296,7 +300,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: #0D0221;
+    color: #a6cfd5;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -310,8 +314,9 @@ section .title::after{
 
 /* skills section styling */
 
+/* Same thing as the about section didnt like the styling */
 .skills .title::after{
-    content: "what i know";
+    content: "";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -384,8 +389,9 @@ section .title::after{
 }
 
 /* teams section styling */
+/* Ended up removing the team section as I dont have enogh*/
 .teams .title::after{
-    content: "who with me";
+    content: "";
 }
 .teams .carousel .card{
     background: #222;
@@ -448,7 +454,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
