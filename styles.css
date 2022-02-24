@@ -265,7 +265,7 @@ html document*/
 }
 
 /* services section styling */
-.services, .teams{
+.services, .contact{
     color:#C2E7D9;
     background: #111;
 }
@@ -389,7 +389,7 @@ html document*/
 }
 
 /* teams section styling */
-/* Ended up removing the team section as I dont have enogh*/
+/* Ended up removing the team section as I dont have enough experience*/
 .teams .title::after{
     content: "";
 }
@@ -455,7 +455,20 @@ html document*/
 /* contact section styling */
 .contact .title::after{
     content: "";
+    
 }
+/* creates the underline */
+.contact .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #C2E7D9;
+    transform: translateX(-50%);
+}
+
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -480,13 +493,13 @@ html document*/
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: #0D0221;
+    color: #c2e7d9;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: #c2e7d9;
 }
 .contact .right form .fields{
     display: flex;
@@ -555,7 +568,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: #0D0221;
+    color: crimson;
     text-decoration: none;
 }
 footer span a:hover{
