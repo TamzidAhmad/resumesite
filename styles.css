@@ -558,7 +558,7 @@ html document*/
 }
 .right form .button-area button:hover{
   color: #0D0221;
-  background: none;
+  background: white;
 }
 /* footer section styling */
 footer{
