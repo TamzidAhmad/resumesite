@@ -36,21 +36,21 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: [ "Software Engineer", "Blogger", "Creative",],
+        strings: [ "Software Engineer", "Creative",],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Software Engineer", "Blogger", "Creative"],
+        strings: ["Software Engineer", "Creative"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
-    // owl carousel script upon research its a Jquery responsive slider
-    $('.carousel').owlCarousel({
+    // owl carousel script upon research its a Jquery responsive slider that I had removed the section for
+    /* $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
         autoplay: true,
@@ -70,5 +70,5 @@ $(document).ready(function(){
                 nav: false
             }
         }
-    });
+    }); */
 });
