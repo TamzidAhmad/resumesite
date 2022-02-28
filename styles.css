@@ -218,6 +218,13 @@ section .title::after{
     background: none;
 }
 
+/* adding my own button and justifying the text */
+
+.graduate_admin_button{
+    text-align: center;
+    line-height: 30px;
+}
+
 /* about section styling */
 /* I disliked the style of the subtitle texts so I am removing them but its interest to see how they had set it up in css rather than the 
 html document*/
