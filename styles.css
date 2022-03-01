@@ -186,23 +186,23 @@ section .title::after{
   margin-right: 0;
 }
 .home .home-content .text-1{
-    font-size: 27px;
-    -webkit-text-stroke-width: 1px;
+    font-size: 40px;
+    -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: black;
     color: white;
 }
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 85px;
     font-weight: 600;
     margin-left: -3px;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: black;
     color: white;
 }
 .home .home-content .text-3{
-    font-size: 40px;
+    font-size: 60px;
     margin: 5px 0;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: black;
     color: white;
 }
