@@ -52,7 +52,7 @@ section .title{
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -271,7 +271,7 @@ html document*/
     background: none;
 }
 
-/* services section styling */
+/* services section styling I changed this into my projects */
 .services, .contact{
     color:#C2E7D9;
     background: #111;
@@ -319,7 +319,18 @@ html document*/
     margin: 10px 0 7px 0;
 }
 
-/* skills section styling */
+.p_under_projects{
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50ch;
+    
+}
+
+
+
+/* skills section styling I changed this into my blog */
 
 /* Same thing as the about section didnt like the styling */
 .skills .title::after{
