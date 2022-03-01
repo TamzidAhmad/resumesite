@@ -170,7 +170,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("lockscreen.png") no-repeat center;
+    background: url("bg.png") no-repeat center;
     height: 100vh;
     color: #0D0221;
     min-height: 500px;
@@ -325,7 +325,6 @@ html document*/
     margin-left: auto;
     margin-right: auto;
     width: 50ch;
-    
 }
 
 
