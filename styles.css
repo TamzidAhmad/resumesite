@@ -297,7 +297,7 @@ html document*/
     content: "";
 }
 /* all the card styling*/
-.services .serv-content .card{
+.services .serv-content .card_1{
     width: calc(33% - 20px);
     background: #26408d;
     text-align: center;
@@ -306,24 +306,65 @@ html document*/
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover{
-    background: #0D0221;
+.services .serv-content .card_1:hover{
+    background: #0D0221, url("bg.jpeg");
 }
-.services .serv-content .card .box{
+
+.services .serv-content .card_2{
+    width: calc(33% - 20px);
+    background: #26408d, url("simple_interest.ong");
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
+.services .serv-content .card_2:hover{
+    background: #0D0221, url("simple_interest.ong");
+}
+
+.services .serv-content .card_3{
+    width: calc(33% - 20px);
+    background: #26408d, url("Base_conv.png");
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card_3:hover{
+    background: #0D0221, url("Base_conv.png");
+}
+.services .serv-content .card_1 .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card_2 .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card_3 .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card_1:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
-    font-size: 50px;
-    color: #a6cfd5;
-    transition: color 0.3s ease;
+.services .serv-content .card_2:hover .box{
+    transform: scale(1.05);
 }
-.services .serv-content .card:hover i{
-    color: #C2E7D9;
+.services .serv-content .card_3:hover .box{
+    transform: scale(1.05);
 }
-.services .serv-content .card .text{
+
+.services .serv-content .card_1 .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.services .serv-content .card_2 .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.services .serv-content .card_3 .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
