@@ -299,7 +299,8 @@ html document*/
 /* all the card styling*/
 .services .serv-content .card_1{
     width: calc(33% - 20px);
-    background: #26408d;
+    background-image: url("bg.jpeg");
+    background: rgba(38, 64, 141,.25);
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -307,12 +308,13 @@ html document*/
     transition: all 0.3s ease;
 }
 .services .serv-content .card_1:hover{
-    background: #0D0221, url("bg.jpeg");
+    background-color: rgba(13, 2, 33, .25);
 }
 
 .services .serv-content .card_2{
     width: calc(33% - 20px);
-    background: #26408d, url("simple_interest.ong");
+    background-image: url("simple_interest.png");
+    background-color: rgba(38, 64, 141, .25);
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -320,12 +322,13 @@ html document*/
     transition: all 0.3s ease;
 }
 .services .serv-content .card_2:hover{
-    background: #0D0221, url("simple_interest.ong");
+    background-color: rgba(13, 2, 33, .25);
 }
 
 .services .serv-content .card_3{
     width: calc(33% - 20px);
-    background: #26408d, url("Base_conv.png");
+    background-image: url("Base_conv.png");
+    background-color: rgba(38, 64, 141, .25);
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -333,8 +336,9 @@ html document*/
     transition: all 0.3s ease;
 }
 .services .serv-content .card_3:hover{
-    background: #0D0221, url("Base_conv.png");
+    background-color: rgba(13, 2, 33, .25);
 }
+
 .services .serv-content .card_1 .box{
     transition: all 0.3s ease;
 }
