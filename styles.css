@@ -187,7 +187,7 @@ section .title::after{
 }
 .home .home-content .text-1{
     font-size: 40px;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     color: white;
 }
@@ -195,14 +195,14 @@ section .title::after{
     font-size: 85px;
     font-weight: 600;
     margin-left: -3px;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     color: white;
 }
 .home .home-content .text-3{
     font-size: 60px;
     margin: 5px;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     color: white;
 }
