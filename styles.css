@@ -335,7 +335,20 @@ html document*/
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    
+
+}
+
+/* Anchor styling */
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
 }
 
 
