@@ -41,7 +41,8 @@ section{
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
-.contact .contact-content{
+.contact .contact-content,
+.p_under_projects{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -187,7 +188,7 @@ section .title::after{
 }
 .home .home-content .text-1{
     font-size: 40px;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     color: white;
 }
@@ -195,14 +196,14 @@ section .title::after{
     font-size: 85px;
     font-weight: 600;
     margin-left: -3px;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     color: white;
 }
 .home .home-content .text-3{
     font-size: 60px;
     margin: 5px;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     color: white;
 }
@@ -296,44 +297,103 @@ html document*/
     content: "";
 }
 /* all the card styling*/
-.services .serv-content .card{
+.services .serv-content .card_1{
     width: calc(33% - 20px);
-    background: #26408d;
+    background-image: url("bg.jpeg");
+    background: rgba(38, 64, 141,.25);
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover{
-    background: #0D0221;
+.services .serv-content .card_1:hover{
+    background-color: rgba(13, 2, 33, .25);
 }
-.services .serv-content .card .box{
+
+.services .serv-content .card_2{
+    width: calc(33% - 20px);
+    background-image: url("simple_interest.png");
+    background-color: rgba(38, 64, 141, .25);
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
+.services .serv-content .card_2:hover{
+    background-color: rgba(13, 2, 33, .25);
+}
+
+.services .serv-content .card_3{
+    width: calc(33% - 20px);
+    background-image: url("Base_conv.png");
+    background-color: rgba(38, 64, 141, .25);
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card_3:hover{
+    background-color: rgba(13, 2, 33, .25);
+}
+
+.services .serv-content .card_1 .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card_2 .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card_3 .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card_1:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
-    font-size: 50px;
-    color: #a6cfd5;
-    transition: color 0.3s ease;
+.services .serv-content .card_2:hover .box{
+    transform: scale(1.05);
 }
-.services .serv-content .card:hover i{
-    color: #C2E7D9;
+.services .serv-content .card_3:hover .box{
+    transform: scale(1.05);
 }
-.services .serv-content .card .text{
+
+.services .serv-content .card_1 .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.services .serv-content .card_2 .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.services .serv-content .card_3 .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
 .p_under_projects{
+    width: 55%;
     margin-bottom: 30px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50ch;
+
+}
+
+/* Anchor styling */
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
 }
 
 
