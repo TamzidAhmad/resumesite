@@ -225,7 +225,7 @@ section .title::after{
 }
 .home .home-content a:hover{
     color: #0D0221;
-    background: none;
+    background: white;
 }
 
 /* adding my own button and justifying the text */
