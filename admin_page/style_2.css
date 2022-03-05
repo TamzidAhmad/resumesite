@@ -10,6 +10,25 @@
 html{
     scroll-behavior: smooth;
 }
+.content{
+    min-height: calc(100vh - 40px);
+    /* 30 px header 10 px footer = -40 px  */
+}
+video{
+    display: block;
+    margin:auto;
+}
+
+.center-text{
+    margin: auto;
+    width: 70%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
