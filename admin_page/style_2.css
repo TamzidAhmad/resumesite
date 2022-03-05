@@ -14,10 +14,7 @@ html{
     min-height: calc(100vh - 40px);
     /* 30 px header 10 px footer = -40 px  */
 }
-video{
-    display: block;
-    margin:auto;
-}
+
 
 .center-text{
     margin: auto;
